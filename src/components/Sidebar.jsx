@@ -56,7 +56,7 @@ const Sidebar = () => {
 
           <div className={pathname === "/chat" ? "menuItem active" : "menuItem"}>
           <UilUsersAlt />
-            <a href="http://localhost:5350/">แชท</a>
+            <a href="http://localhost:7003/">แชท</a>
           </div>
 
           <div className="menuItem" onClick={handleLogout}>
