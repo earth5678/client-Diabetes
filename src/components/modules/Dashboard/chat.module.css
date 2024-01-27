@@ -1,0 +1,210 @@
+.main_chat{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.sub_screen{
+    display: flex;
+    align-items: center;
+    margin: 2rem 3.5rem 2rem 3.5rem;
+
+}
+
+.profile{
+    & h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    & p {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 300;
+    }
+}
+
+.meessage{
+    margin-left: 3.5rem/* 56px */;
+    margin-right: 3.5rem/* 56px */;
+    & div {
+        font-size: 1.125rem/* 18px */;
+        line-height: 1.75rem/* 28px */;
+    }
+}
+
+.conversation{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem/* 32px */;
+    padding-bottom: 2rem/* 32px */;
+    border-bottom-width: 1px;
+    border: 1px solid lightgray;
+
+}
+
+.no_conversation{
+    text-align: center;
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+    font-weight: 600;   /* Equivalent to font-semibold in Tailwind */
+    margin-top: 6rem;   /* Equivalent to mt-24 in Tailwind */
+}
+
+.msg{
+    width: 75%;
+    background-color: var(--bg-secondary); /* Replace with your actual background color value */
+    height: 80px;
+    margin-top: 3.5rem; /* Equivalent to my-14 in Tailwind */
+    border-radius: 9999px; /* Equivalent to rounded-full in Tailwind */
+    display: flex;
+    align-items: center;
+    padding-left: 3.5rem; /* Equivalent to px-14 in Tailwind */
+    padding-right: 3.5rem; /* Equivalent to px-14 in Tailwind */
+    padding-top: 0.5rem; /* Equivalent to py-2 in Tailwind */
+    padding-bottom: 0.5rem; /* Equivalent to py-2 in Tailwind */
+}
+
+.msg_box{
+    margin-left: 1.5rem;
+    margin-right: auto;
+    & h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    & p {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 300;
+    }
+}
+
+.phone_icon {
+    width: 24px;
+    height: 24px;
+    stroke-width: 1.5;
+    stroke: black;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .scroll_container {
+    height: 75%;
+    width: 100%;
+    overflow-y: scroll;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Equivalent to shadow-sm in Tailwind */
+  }
+
+  .container {
+    max-width: 40%;
+    border-radius: 0 0 0 0;
+    padding: 1rem; /* Equivalent to p-4 in Tailwind */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 in Tailwind */
+  }
+  
+  .container_user {
+    background-color: var(--bg-primary); /* Replace with your actual background color value */
+    color: white;
+    border-radius: 0 0 0 0; /* Equivalent to rounded-tl-xl in Tailwind */
+    margin-left: auto; /* Equivalent to ml-auto in Tailwind */
+  }
+  
+  .container_secondary {
+    background-color: var(--bg-secondary); /* Replace with your actual background color value */
+    border-radius: 0 0 0 0; /* Equivalent to rounded-tr-xl in Tailwind */
+  }
+ 
+  .text {
+    text-align: center;
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+    font-weight: 600;   /* Equivalent to font-semibold in Tailwind */
+    margin-top: 6rem;   /* Equivalent to mt-24 in Tailwind */
+  }
+
+  .display_chat {
+    padding: 3.5rem;  /* Equivalent to p-14 in Tailwind */
+    width: 100%;      /* Equivalent to w-full in Tailwind */
+    display: flex;
+    align-items: center;
+  }
+
+  .custom_input {
+    width: 75%;
+    padding: 1rem;  /* Equivalent to p-4 in Tailwind */
+    border: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Equivalent to shadow-md in Tailwind */
+    border-radius: 9999px;  /* Equivalent to rounded-full in Tailwind */
+    background-color: var(--bg-light);  /* Replace with your actual background color value */
+    outline: none;  /* Equivalent to outline-none in Tailwind */
+  }
+  
+  .custom_button {
+    margin-left: 1rem;  /* Equivalent to ml-4 in Tailwind */
+    padding: 0.5rem 1rem;  /* Equivalent to p-2 in Tailwind */
+    cursor: pointer;  /* Equivalent to cursor-pointer in Tailwind */
+    background-color: var(--bg-light);  /* Replace with your actual background color value */
+    border-radius: 9999px;  /* Equivalent to rounded-full in Tailwind */
+  }
+  
+.disabled {
+    pointer-events: none;
+  }
+
+  .icon_send {
+    width: 30px;
+    height: 30px;
+    stroke-width: 1.5;
+    stroke: #2c3e50;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .chat_container {
+    width: 25%;      /* Equivalent to w-[25%] in Tailwind */
+    height: 100vh;   /* Equivalent to h-screen in Tailwind */
+    background-color: var(--bg-light);  /* Replace with your actual background color value */
+    padding-left: 2rem;  /* Equivalent to px-8 in Tailwind */
+    padding-right: 2rem;  /* Equivalent to px-8 in Tailwind */
+    padding-top: 4rem;    /* Equivalent to py-16 in Tailwind */
+    padding-bottom: 4rem; /* Equivalent to py-16 in Tailwind */
+    overflow-y: scroll;   /* Equivalent to overflow-scroll in Tailwind */
+  }
+  
+  .m_text {
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+  }
+
+  .msg_1_container {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem; /* Equivalent to py-8 in Tailwind */
+    padding-bottom: 2rem; /* Equivalent to py-8 in Tailwind */
+    border-bottom-width: 1px; /* Equivalent to border-b in Tailwind */
+    border-bottom-style: solid; /* Equivalent to border-b in Tailwind */
+    border-bottom-color: #d1d5db; /* Equivalent to border-b-gray-300 in Tailwind */
+  }
+
+  .text_1_container{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ml{
+    margin-left: 1.5rem/* 24px */;
+    
+    & h3 {
+        font-size: 1.125rem/* 18px */;
+        line-height: 1.75rem/* 28px */;
+        font-weight: 600;
+    }
+
+    & p {
+        font-size: 0.875rem/* 14px */;
+        line-height: 1.25rem/* 20px */;
+        font-weight: 300;
+        color: gray;
+    }
+  }

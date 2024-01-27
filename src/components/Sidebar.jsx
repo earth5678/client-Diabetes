@@ -1,10 +1,11 @@
 import React from "react";
-import { Outlet, Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import './Sidebar.css';
 import { UilEstate, UilClipboardAlt, UilUsersAlt, UilSignOutAlt } from "@iconscout/react-unicons";
 
 const Sidebar = () => {
+
   const { pathname } = useLocation();
 
     const navigate = useNavigate();
@@ -22,8 +23,8 @@ const Sidebar = () => {
   
   return (
     <div className="container1">
-      <nav className="sidebar1">
-        <div className='logo1'>
+      <nav className="sidebar">
+        <div className='logo1' onClick={() => navigate("/")}>
           <img src='/assets/logo3.png' alt='Logo' />
         </div>
         
@@ -55,7 +56,7 @@ const Sidebar = () => {
 
           <div className={pathname === "/chat" ? "menuItem active" : "menuItem"}>
           <UilUsersAlt />
-            <Link to="/chat">แชท</Link>
+            <a href="http://localhost:5350/">แชท</a>
           </div>
 
           <div className="menuItem" onClick={handleLogout}>
