@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 2rem;
+  transition: all 300ms ease;
+}
+
+/* logo */
+.bars1{
+  display: none;
+}
+
+.logo1 {
+  display: flex;
+  height: 5rem;
+  font-weight: bold;
+  font-size: 20px;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 5%;
+  padding:10px ;
+}
+.logo1 > span > span {
+  color: var(--pink);
+}
+
+.logo1 > img {
+  width: 12rem;
+  height: 4rem;
+}
+
+/* menu */
+.menu {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  transition: all 300ms ease;
+  border-radius: 0.7rem;
+  font-size: 15px;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+}
+
+.menu .menuItem:last-child {
+  bottom: 2.5rem;
+  width: 100%;
+}
+
+.active {
+  background: #C2FFD3;
+  margin-left: 0;
+}
+.active::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: #52B788;
+  margin-right: calc(1rem - 8px);
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #005504;
+  font-family: 'Kanit', sans-serif;	
+  font-weight: 700;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}

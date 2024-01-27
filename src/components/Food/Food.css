@@ -1,0 +1,97 @@
+   td  {
+    padding: 11px;
+    border: 1px solid #e4ffe6;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: #016235;
+    font-size: 16px;
+  }
+  
+  .TextTitle {
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 5px;
+  }
+
+  th {
+    background-color: #52B788 ;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+  }
+  h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+  }
+
+.AddFoodForm {
+  background-color: #dff6e2;
+  width: 110%;
+  padding: 5px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-content: center;
+  margin-left: 15%;
+}
+
+.AddFoodForm button {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #52B788; /* สีปุ่ม */
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Kanit';
+}
+
+.AddFoodForm button:hover {
+  background-color: #45a049;
+}
+
+.AddFoodForm input {
+  width: 96%;
+  margin: 2px 0;
+  box-sizing: border-box;
+  font-size: 10;
+  font-family: 'Kanit', sans-serif;
+}
+.AddFoodForm label {
+  font-family: 'Kanit', sans-serif;
+}
+.Button {
+  background-color: #4caf50; /* สีปุ่ม */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Kanit', sans-serif;
+  margin-top: 30%;
+  text-align: center; 
+  display: inline-block;
+}
+
+.search-container {
+  margin-bottom: 10px;
+}
+
+label[for="search"] {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+input#search {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

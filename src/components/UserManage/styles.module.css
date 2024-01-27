@@ -1,0 +1,67 @@
+.no-border .p-datatable thead,
+.no-border .p-datatable tbody,
+.no-border .p-datatable th,
+.no-border .p-datatable td,
+.no-border .p-datatable tr {
+  border: none !important;
+}
+/* styles.module.css or your preferred stylesheet */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+
+.table-container {
+  flex: 0 0 60%; 
+  margin-right: 10px; 
+}
+
+.button-info-container {
+  flex: 0 0 20%; 
+  background-color: #400000; 
+  padding: 10px;
+}
+
+p  {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.AddFoodForm {
+background-color: #e6f7e8;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-top: 10px;
+align-content: center;
+}
+
+.AddFoodForm button {
+margin-top: 20px;
+background-color: #4caf50;
+color: white;
+padding: 10px 10px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+font-family: 'Kanit', sans-serif;
+}
+
+.AddFoodForm button:hover {
+background-color: #45a049;
+}
+
+.AddFoodForm input {
+width: 96%;
+margin: 2px 0;
+box-sizing: border-box;
+font-size: 10;
+font-family: 'Kanit', sans-serif;
+}
+.AddFoodForm label {
+font-family: 'Kanit', sans-serif;
+}
+

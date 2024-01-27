@@ -1,0 +1,96 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row; /* วางทุกอย่างเป็นแถว */
+    align-items: flex-start; /* จัดให้อยู่ทางด้านบนของ container */
+    width: 180px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #ffc7cd 0%, #FC929D 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard1-container {
+    display: flex;
+    flex-direction: row; /* วางทุกอย่างเป็นแถว */
+    align-items: flex-start; /* จัดให้อยู่ทางด้านบนของ container */
+    width: 180px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #ffc891 0%, #ff7272 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .dashboard2-container {
+    display: flex;
+    flex-direction: row; /* วางทุกอย่างเป็นแถว */
+    align-items: flex-start; /* จัดให้อยู่ทางด้านบนของ container */
+    width: 180px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #9891ff 0%, #7279ff 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .dashboard3-container {
+    display: flex;
+    flex-direction: row; /* วางทุกอย่างเป็นแถว */
+    align-items: flex-start; /* จัดให้อยู่ทางด้านบนของ container */
+    width: 220px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #e091ff 0%, #dfa9ff 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .dashboard4-container {
+    display: flex;
+    flex-direction: row; /* วางทุกอย่างเป็นแถว */
+    align-items: flex-start; /* จัดให้อยู่ทางด้านบนของ container */
+    width: 225px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #a6f9ff 0%, #72f6ff 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .radialBar, .detail {
+    text-align: center;
+  }
+  
+.chartContainer {
+    width: 70%;
+  }
+
+span {
+    font-family: 'Kanit';
+}
+
+.detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.maindash-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+  }
+  .user-count-container {
+    display: flex;
+    flex-direction: row; /* จัดให้ UserCount components เรียงแบบ row */
+    justify-content: center; /* จัดให้ UserCount components อยู่กลางหน้า container */
+    flex-wrap: wrap; /* ทำให้ UserCount components ขึ้นบรรทัดใหม่เมื่อครบขอบเขต */
+  }
+  
+  .user-count {
+    width: 100px; /* ปรับขนาดของ UserCount */
+    margin: 10px; /* ปรับระยะห่างรอบๆ UserCount */
+  }
+  
